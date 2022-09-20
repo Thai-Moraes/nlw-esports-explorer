@@ -9,11 +9,11 @@ ul {
 }
 
 body {
-    background-image: url(./assets/bg.jpg);
+    background-image: url(./assets/bg.gif);
     background-position: top center;
     background-size: 100% auto;
     background-repeat: no-repeat;
-    background-color: #121214;
+    background-color: #243854;
 }
 
 body * {
@@ -29,8 +29,7 @@ header {
 header div {
     width: 120px;
     margin: auto;
-    background: rgb(131,58,180);
-    background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+    background-image: linear-gradient(90deg, #375478 0%, #365884 50.52%, #222a3e 100%);
 
     border-radius: 50%;
 
@@ -60,8 +59,7 @@ main {
 
 section {
     color: white;
-    background: rgb(131,58,180);
-    background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+    background-image: linear-gradient(90deg, #375478 0%, #365884 50.52%, #222a3e 100%);
     padding-top: 4px;
     border-radius: 10px;
 }
@@ -164,4 +162,27 @@ main section:nth-child(4) {
         opacity: 1;
         transform: translateY(0)
     }
+}
+
+/* swiper */
+
+main {
+    max-width: 360px;
+}
+
+section {
+    overflow: hidden;
+}
+
+section ul {
+    flex-wrap: nowrap;
+    gap: 14px;
+}
+
+.series-list {
+    transition: transform .3s;
+}
+
+.series-list:hover {
+    transform: scale(1.1)
 }
