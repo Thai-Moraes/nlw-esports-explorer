@@ -91,29 +91,48 @@
 
                 <section>
                     <div>
+ 
                         <h2>🎮 Meus jogos</h2>
                         <p>Os games que eu mais curto jogar!</p>
 
-                        <ul class="games-list">
-                            <li>
+                    <div class="swiper mySwiper">
+                        <ul class="games-list swiper-wrapper">
+
+                            <li class="swiper-slide">
                                 <a 
                                 target="_blank"
                                 href="https://www.twitch.tv/directory/game/Hollow%20Knight"><img src="https://static-cdn.jtvnw.net/ttv-boxart/490147_IGDB-188x250.jpg" alt="Imagem do jogo Hollow Knight"></a>
                             </li>
 
-                            <li>
+                            <li class="swiper-slide">
                                 <a 
                                 target="_blank"
                                 href="https://www.twitch.tv/directory/game/Minecraft"><img src="https://static-cdn.jtvnw.net/ttv-boxart/27471_IGDB-188x250.jpg" alt="Imagem do jogo Minecraft"></a>
                             </li>
 
-                            <li>
+                            <li class="swiper-slide">
                                 <a 
                                 target="_blank"
                                 href="https://www.twitch.tv/directory/game/Hades"><img src="https://static-cdn.jtvnw.net/ttv-boxart/510590_IGDB-188x250.jpg" alt="Imagem do jogo Hades"></a>
                             </li>
+
+                            <li class="swiper-slide">
+                                <a 
+                                target="_blank"
+                                href="https://www.twitch.tv/directory/game/The%20Last%20of%20Us"><img src="https://static-cdn.jtvnw.net/ttv-boxart/33180_IGDB-188x250.jpg" alt="Imagem do jogo The Last Of Us"></a>
+                            </li>
+
+                            <li class="swiper-slide">
+                                <a 
+                                target="_blank"
+                                href="https://www.twitch.tv/directory/game/Undertale"><img src="https://static-cdn.jtvnw.net/ttv-boxart/490713_IGDB-188x250.jpg" alt="Imagem do jogo Undertale"></a>
+                            </li>
+
                         </ul>
+
+                        </div>
                     </div>
+
                 </section>
 
                 <section>
@@ -178,7 +197,7 @@
     <script>
     new Swiper(".mySwiper", {
         slidesPerView: 3,
-        spaceBetween: 20,
+        spaceBetween: 30,
         loop: true
     });
     </script>

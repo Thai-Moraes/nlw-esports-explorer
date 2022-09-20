@@ -176,5 +176,5 @@ section {
 
 section ul {
     flex-wrap: nowrap;
-    gap: 14px;
+    gap: 0px;
 }
