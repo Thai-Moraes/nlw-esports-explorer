@@ -176,13 +176,5 @@ section {
 
 section ul {
     flex-wrap: nowrap;
-    gap: 14px;
-}
-
-.series-list {
-    transition: transform .3s;
-}
-
-.series-list:hover {
-    transform: scale(1.1)
+    gap: 16px;
 }
